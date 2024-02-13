@@ -14,7 +14,7 @@ const Navbar = () => (
         <Logo
           icon={
             <img
-              className="h-10 w-10"
+              className="h-20 w-20"
               src="/assets/images/card_orbit_clear.png"
               alt="Ghazanellie logo"
               loading="lazy"
