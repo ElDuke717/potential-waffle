@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Crete+Round:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  /* Primary */
+  --indigo-050: #e0e8f9;
+  --indigo-100: #bed0f7;
+  --indigo-200: #98aeeb;
+  --indigo-300: #7b93db;
+  --indigo-400: #647acb;
+  --indigo-500: #4c63b6;
+  --indigo-600: #4055a8;
+  --indigo-700: #35469c;
+  --indigo-800: #2d3a8c;
+  --indigo-900: #19216c;
+
+  --cyan-vivid-050: #e1fcf8;
+  --cyan-vivid-100: #c1fef6;
+  --cyan-vivid-200: #92fdf2;
+  --cyan-vivid-300: #62f4eb;
+  --cyan-vivid-400: #3ae7e1;
+  --cyan-vivid-500: #1cd4d4;
+  --cyan-vivid-600: #0fb5ba;
+  --cyan-vivid-700: #099aa4;
+  --cyan-vivid-800: #07818f;
+  --cyan-vivid-900: #05606e;
+
+  /* Neutrals */
+  --cool-grey-050: #f5f7fa;
+  --cool-grey-100: #e4e7eb;
+  --cool-grey-200: #cbd2d9;
+  --cool-grey-300: #9aa5b1;
+  --cool-grey-400: #7b8794;
+  --cool-grey-500: #616e7c;
+  --cool-grey-600: #52606d;
+  --cool-grey-700: #3e4c59;
+  --cool-grey-800: #323f4b;
+  --cool-grey-900: #1f2933;
+
+  /* Supporting */
+  --pink-vivid-050: #ffe3ec;
+  --pink-vivid-100: #ffb8d2;
+  --pink-vivid-200: #ff8cba;
+  --pink-vivid-300: #f364a2;
+  --pink-vivid-400: #e8368f;
+  --pink-vivid-500: #da127d;
+  --pink-vivid-600: #bc0a6f;
+  --pink-vivid-700: #a30664;
+  --pink-vivid-800: #870557;
+  --pink-vivid-900: #620042;
+
+  --red-vivid-050: #ffe3e3;
+  --red-vivid-100: #ffbdbd;
+  --red-vivid-200: #ff9b9b;
+  --red-vivid-300: #f86a6a;
+  --red-vivid-400: #ef4e4e;
+  --red-vivid-500: #e12d39;
+  --red-vivid-600: #cf1124;
+  --red-vivid-700: #ab091e;
+  --red-vivid-800: #8a041a;
+  --red-vivid-900: #610316;
+
+  --yellow-vivid-050: #fffbea;
+  --yellow-vivid-100: #fff3c4;
+  --yellow-vivid-200: #fce588;
+  --yellow-vivid-300: #fadb5f;
+  --yellow-vivid-400: #f7c948;
+  --yellow-vivid-500: #f0b429;
+  --yellow-vivid-600: #de911d;
+  --yellow-vivid-700: #cb6e17;
+  --yellow-vivid-800: #b44d12;
+  --yellow-vivid-900: #8d2b0b;
+
+  --green-vivid-050: #e3f9e5;
+  --green-vivid-100: #c1f2c7;
+  --green-vivid-200: #91e697;
+  --green-vivid-300: #51ca58;
+  --green-vivid-400: #31b237;
+  --green-vivid-500: #18981d;
+  --green-vivid-600: #0f8613;
+  --green-vivid-700: #0e7817;
+  --green-vivid-800: #07600e;
+  --green-vivid-900: #014807;
+
+  /*Interesting colors */
+
+  --dark-grey-brown: #333;
+  --gold-brown: #847b69;
+  --dark-blue: #0a0f19;
+  --indigo-dark: #2c365e;
+  --indigo-light: #6574a3;
+  --purple-dark: #321547;
+  --purple-medium: #642e83;
+  --purple-light: #a364c4;
+  --gradient-start: #0a0f19; /* Starting color of the gradient, usually the darkest color */
+  --gradient-end: #a364c4; /* Ending color of the gradient, usually the lightest color */
+  --crystal-ball-glow: #4c669f; /* Assuming the glow around the crystal ball */
+}
+
+.background-gradient {
+  background: linear-gradient(to right, #0a0f19, #2c365e, #642e83, #a364c4);
+}
+
+body {
+  font-family: Lato, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to right, #0a0f19, #2c365e, #642e83, #a364c4);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.main-title {
+  font-size: 2rem;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  color: var(--gold-brown);
+}
+
+nav {
+  background: #444;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: var(--cool-grey-300);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.contact-banner {
+  background: var(--pink-vivid-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-banner h2 {
+  color: var(--cool-grey-200);
+  padding: 20px;
+}
+
+.tarot-cards {
+  width: 200px;
+  margin: 50px; 
+}
+
+.container {
+  padding: 20px;
+  flex: 1;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.decor-image-main {
+  width: 50%;
+  border-radius: 3px;
+  box-shadow: 40.3px 27.6px 36.1px -58px rgba(0, 0, 0, 0.04),
+    146px 100px 190px -58px rgba(0, 0, 0, 0.11);
+}
+
+.tarot-cards-spread {
+  display: block;
+  margin: 20px auto; /* Center the image and give some space around it */
+  width: 50%; /* Adjust the width as necessary */
+  box-shadow: inset 0 0 10px #000000; /* Creates the inset shadow effect */
+  border: 15px solid #f5f5f5; /* Adjust the color to match the matte color */
+  padding: 20px; /* This padding represents the matte around the image */
+  background-color: #f5f5f5; /* Adjust the color to match the matte color */
+  box-sizing: border-box; /* Ensures padding and border are included in total width/height */
+}
+
+.tarot-image,
+#tarot-intro {
+  flex-basis: 50%;
+  max-width: 50%;
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* If you want some space between the image and the text */
+.decor-image-main,
+#tarot-intro {
+  margin: 10px; /* Adjust the margin as needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tarot-image,
+  #tarot-intro {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+#tarot-intro {
+  color: var(--gold-brown);
+}
+
+.decor-image {
+  width: 50px;
+}
+
+.footer {
+  background: var(--dark-grey-brown);
+  color: var(--gold-brown);
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto; /* Push the footer to the bottom */
+}

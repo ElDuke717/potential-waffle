@@ -3,40 +3,40 @@ import {
   HeroAvatar,
   HeroSocial,
   Section,
-} from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
 
 const Hero = () => (
   <Section>
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Welcome to <GradientText>Ghazanellie</GradientText>
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{" "}
           <a className="text-cyan-400 hover:underline" href="/">
             malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
+          </a>{" "}
+          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{" "}
           <a className="text-cyan-400 hover:underline" href="/">
             consectetur
-          </a>{' '}
+          </a>{" "}
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
         </>
       }
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          src="/assets/images/tarot-reader.png"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
+          {/* <a href="/">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
@@ -59,7 +59,7 @@ const Hero = () => (
               src="/assets/images/youtube-icon.png"
               alt="Youtube icon"
             />
-          </a>
+          </a> */}
         </>
       }
     />
