@@ -129,7 +129,7 @@ body {
 }
 
 .main-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Cinzel", serif;
   font-weight: 700;
   color: var(--gold-brown);
@@ -167,7 +167,7 @@ nav a:hover {
 
 .tarot-cards {
   width: 200px;
-  margin: 50px; 
+  margin: 50px;
 }
 
 .container {
@@ -192,6 +192,11 @@ main {
   border-radius: 3px;
   box-shadow: 40.3px 27.6px 36.1px -58px rgba(0, 0, 0, 0.04),
     146px 100px 190px -58px rgba(0, 0, 0, 0.11);
+}
+
+.orbit-logo {
+  width: 76px;
+  margin: 10px;
 }
 
 .tarot-cards-spread {

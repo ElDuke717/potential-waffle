@@ -1,5 +1,4 @@
 import {
-  Logo,
   NavbarTwoColumns,
   NavMenu,
   NavMenuItem,
@@ -10,25 +9,18 @@ const Navbar = () => (
   <Section>
     <img src="/assets/images/top_design.png" alt="" />
     <NavbarTwoColumns>
-      <a href="/">
-        <Logo
-          icon={
-            <img
-              className="h-20 w-20"
-              src="/assets/images/card_orbit_clear.png"
-              alt="Ghazanellie logo"
-              loading="lazy"
-            />
-          }
-          name="Ghazanellie"
-        />
-      </a>
+      <div className="flex items-center"> {/* Add flex and items-center classes here */}
+        <a href="/" className="main-title flex items-center"> {/* Optionally add flex and items-center here if needed */}
+          <img className='orbit-logo mr-2' src="/assets/images/card_orbit_clear.png" alt="Ghazanellie logo" /> {/* Add margin-right (mr-2) for spacing */}
+          Ghazanellie
+        </a>
+      </div>
 
       <NavMenu>
-        <NavMenuItem href="/posts/">Blog</NavMenuItem>
+        <NavMenuItem className='main-title' href="/posts/">Blog</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>
 );
 
-export { Navbar };
+export { Navbar }

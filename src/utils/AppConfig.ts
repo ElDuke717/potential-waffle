@@ -1,6 +1,6 @@
 export const AppConfig = {
   site_name: "Ghazanellie",
-  title: "Ghazanellie - A Taro reader website",
+  title: "Ghazanellie",
   description: "A Taro reader website",
   author: "Nick",
   locale_region: "en-us",
